@@ -1,3 +1,8 @@
+"""
+Desafio: Criando um sistema bancário
+"""
+
+
 menu = f"""
 {'='*25} MENU {'='*25}\n
 
@@ -9,13 +14,11 @@ menu = f"""
 {'='*23} SEU BANCO {'='*23}
 """
 
-
 saldo = 0
 limite = 500
 extrato = " "
 numero_saques = 0
 limite_saques = 3
-
 
 while True:
     print(menu)
